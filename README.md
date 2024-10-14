@@ -31,10 +31,10 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 
 Note: Current performance metrics are under investigation due to issues with Hit Ratio and NDCG calculations.
 
-- **Accuracy**: TBD
-- **MSE**: Varies by epoch, refer to training logs
-- **Hit Ratio**: Currently 0 (under investigation)
-- **NDCG**: Currently 0 (under investigation)
+- **Accuracy**:  0.8210
+- **Precision**:  0.8210
+- **Recall**: 1.0000
+- **NDCG**: 0.9017
 
 ## Quick Start Guide
 
