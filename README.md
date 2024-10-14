@@ -19,6 +19,7 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 4. **user-recommendations-and-history-script.py**: Script for generating user-specific recommendations, get the preprocessed_data.npz file in the same folder as this for it to work
 5. **preprocessed_data.npz**: https://github-1.s3.amazonaws.com/preprocessed_data.npz (not included in the repository)
 6. **best_ncf_model.pth**: Saved best model weights
+7. **Dataset**: https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system
 
 ## Documentation
 
