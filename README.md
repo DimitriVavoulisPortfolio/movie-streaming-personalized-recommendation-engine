@@ -59,7 +59,6 @@ Note: Current performance metrics are under investigation due to issues with Hit
 
 ## Future Work
 
-- Investigate and resolve issues with Hit Ratio and NDCG metrics
 - Implement more advanced recommendation algorithms
 - Create a user-friendly web interface for the recommendation system
 - Develop an API for real-time recommendation generation
