@@ -71,5 +71,5 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Contact
 
-For any questions or feedback, please open an issue in this repository or contact [Your Name](mailto:your.email@example.com).
+For any questions or feedback, please open an issue in this repository or contact [Dimitri Vavoulis](mailto:dimitrivavoulis3@gmail.com).
 
