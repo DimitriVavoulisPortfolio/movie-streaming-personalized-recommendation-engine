@@ -71,7 +71,7 @@
 
 ### Evaluation Metric Challenges
 - Challenge: Issues with Hit Ratio and NDCG calculations
-- Solution: Ongoing investigation and debugging of evaluation code
+- Solution: Usage of alternative metrics that work as well and ongoing investigation and debugging of evaluation code
 
 ## 9. Future Improvements
 
