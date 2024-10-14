@@ -32,7 +32,7 @@ Note: Current performance metrics are under investigation due to issues with Hit
 - **Accuracy**:  0.8210
 - **Precision**:  0.8210
 - **Recall**: 1.0000
-- **NDCG**: 0.9017
+- **F1 Score**: 0.9017
 
 ## Quick Start Guide
 
