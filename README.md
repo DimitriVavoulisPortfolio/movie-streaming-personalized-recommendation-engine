@@ -27,8 +27,6 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 
 ## Model Performance
 
-Note: Current performance metrics are under investigation due to issues with Hit Ratio and NDCG calculations.
-
 - **Accuracy**:  0.8210
 - **Precision**:  0.8210
 - **Recall**: 1.0000
