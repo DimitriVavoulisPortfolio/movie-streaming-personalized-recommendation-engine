@@ -1,4 +1,4 @@
-# Movie Recommendation System
+# Movie Streaming Personalized Recommendation Engine
 
 ## Project Overview
 
@@ -37,7 +37,7 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/movie-recommendation-system.git
+   git clone https://github.com/DimitriVavoulisPortfolio/movie-streaming-personalized-recommendation-engine.git
    cd movie-recommendation-system
    ```
 
