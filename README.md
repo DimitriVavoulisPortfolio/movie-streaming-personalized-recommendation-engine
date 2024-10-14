@@ -46,7 +46,7 @@ Note: Current performance metrics are under investigation due to issues with Hit
 
 2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install pandas numpy scikit-learn PyYAML torch
    ```
 
 3. To train the model:
