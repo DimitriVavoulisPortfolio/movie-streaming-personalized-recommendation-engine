@@ -14,13 +14,11 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 
 ## Project Structure
 
-1. **model-training-script v1.5.py**: Main script for NCF model training
-2. **user-recommendations-and-history-script.py**: Script for generating user-specific recommendations
-3. **preprocessed_data.npz**: https://github-1.s3.amazonaws.com/preprocessed_data.npz (not included in the repository)
-4. **best_ncf_model.pth**: Saved best model weights
-5. **ncf_model_info.json**: Model metadata and training information
-6. **config.yaml**: Configuration file for model parameters and training settings
-7. **training.log**: Log file containing training progress and results
+1. **logs and other info**: logs of the entire process as well as JSON and YAML files made during the process including screenshots of model usage
+2. **scripts**: scripts of the whole process except for model usage
+4. **user-recommendations-and-history-script.py**: Script for generating user-specific recommendations, get the preprocessed_data.npz file in the same folder as this for it to work
+5. **preprocessed_data.npz**: https://github-1.s3.amazonaws.com/preprocessed_data.npz (not included in the repository)
+6. **best_ncf_model.pth**: Saved best model weights
 
 ## Documentation
 
@@ -69,7 +67,7 @@ Note: Current performance metrics are under investigation due to issues with Hit
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
