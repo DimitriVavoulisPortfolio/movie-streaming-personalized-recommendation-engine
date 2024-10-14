@@ -9,7 +9,6 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 - Custom Neural Collaborative Filtering (NCF) model implementation
 - Efficient data preprocessing and standardization pipeline
 - Advanced model training with early stopping and learning rate scheduling
-- Evaluation metrics including MSE, Hit Ratio, and NDCG (currently under investigation)
 - User-specific movie recommendation generation
 - Scalable architecture suitable for large datasets
 
