@@ -1,0 +1,22 @@
+{
+    "model_type": "Neural Collaborative Filtering (Custom Implementation)",
+    "num_users": 162542,
+    "num_items": 209172,
+    "embedding_dim": 64,
+    "layers": [
+        64,
+        32,
+        16,
+        8
+    ],
+    "dropout": 0.2,
+    "best_val_loss": 0.10129080384969712,
+    "batch_size": 4091,
+    "num_epochs": 50,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "optimizer": "Adam with OneCycleLR",
+    "early_stopping_patience": 5,
+    "total_training_time": 14705.441153049469,
+    "timestamp": "20241012_192517"
+}

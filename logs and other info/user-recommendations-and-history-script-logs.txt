@@ -1,0 +1,145 @@
+PS C:\Users\dimit> & C:/Users/dimit/AppData/Local/Microsoft/WindowsApps/python3.9.exe c:/Github-uploading/movie-streaming-personalized-recommendation-engine/user-recommendations-and-history-script.py
+c:\Github-uploading\movie-streaming-personalized-recommendation-engine\user-recommendations-and-history-script.py:39: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_path)
+Model loaded with 162542 users and 209172 items.
+Enter a user ID (or 'q' to quit): 2
+
+User 2's watch history:
+- Movie ID: 1431.0 
+- Movie ID: 3105.0 
+- Movie ID: 150.0  
+- Movie ID: 1873.0 
+- Movie ID: 333.0  
+- Movie ID: 35836.0
+- Movie ID: 1302.0 
+- Movie ID: 2918.0 
+- Movie ID: 6287.0 
+- Movie ID: 2273.0 
+... and 139 more.  
+
+Top 10 recommendations for user 2:
+1. Movie ID: 1196 
+2. Movie ID: 260  
+3. Movie ID: 318  
+4. Movie ID: 1291 
+5. Movie ID: 1210 
+6. Movie ID: 5816 
+7. Movie ID: 1198 
+8. Movie ID: 95654
+9. Movie ID: 457
+10. Movie ID: 54001
+
+--------------------------------------------------
+Enter a user ID (or 'q' to quit): 3
+
+User 3's watch history:
+- Movie ID: 59501.0
+- Movie ID: 175197.0
+- Movie ID: 71464.0
+- Movie ID: 6870.0
+- Movie ID: 5378.0
+- Movie ID: 136020.0
+- Movie ID: 55805.0
+- Movie ID: 3977.0
+- Movie ID: 2021.0
+- Movie ID: 6548.0
+... and 114 more.
+
+Top 10 recommendations for user 3:
+1. Movie ID: 50
+2. Movie ID: 171011
+3. Movie ID: 1196
+4. Movie ID: 2571
+5. Movie ID: 1089
+6. Movie ID: 5952
+7. Movie ID: 4226
+8. Movie ID: 260
+9. Movie ID: 1262
+10. Movie ID: 318
+
+--------------------------------------------------
+Enter a user ID (or 'q' to quit): 42
+
+User 42's watch history:
+- Movie ID: 1370.0
+- Movie ID: 50.0
+- Movie ID: 1961.0
+- Movie ID: 1097.0
+- Movie ID: 1089.0
+- Movie ID: 1610.0
+- Movie ID: 593.0
+- Movie ID: 47.0
+- Movie ID: 427.0
+- Movie ID: 589.0
+... and 7 more.
+
+Top 10 recommendations for user 42:
+1. Movie ID: 50
+2. Movie ID: 1086
+3. Movie ID: 904
+4. Movie ID: 905
+5. Movie ID: 1212
+6. Movie ID: 7099
+7. Movie ID: 159817
+8. Movie ID: 1262
+9. Movie ID: 171011
+10. Movie ID: 2208
+
+--------------------------------------------------
+Enter a user ID (or 'q' to quit): 100
+
+User 100's watch history:
+- Movie ID: 1464.0
+- Movie ID: 26.0
+- Movie ID: 527.0
+- Movie ID: 58.0
+- Movie ID: 17.0
+- Movie ID: 590.0
+- Movie ID: 1429.0
+- Movie ID: 260.0
+- Movie ID: 714.0
+- Movie ID: 82.0
+... and 37 more.
+
+Top 10 recommendations for user 100:
+1. Movie ID: 171011
+2. Movie ID: 3435
+3. Movie ID: 904
+4. Movie ID: 2019
+5. Movie ID: 1086
+6. Movie ID: 1178
+7. Movie ID: 7926
+8. Movie ID: 1212
+9. Movie ID: 1262
+10. Movie ID: 942
+
+--------------------------------------------------
+Enter a user ID (or 'q' to quit): 101
+
+User 101's watch history:
+- Movie ID: 88810.0
+- Movie ID: 48.0
+- Movie ID: 66097.0
+- Movie ID: 344.0
+- Movie ID: 55247.0
+- Movie ID: 2571.0
+- Movie ID: 56587.0
+- Movie ID: 3969.0
+- Movie ID: 2424.0
+- Movie ID: 105844.0
+... and 26 more.
+
+Top 10 recommendations for user 101:
+1. Movie ID: 54001
+2. Movie ID: 1086
+3. Movie ID: 904
+4. Movie ID: 3435
+5. Movie ID: 5816
+6. Movie ID: 8368
+7. Movie ID: 5008
+8. Movie ID: 1212
+9. Movie ID: 905
+10. Movie ID: 1178
+
+--------------------------------------------------
+Enter a user ID (or 'q' to quit):

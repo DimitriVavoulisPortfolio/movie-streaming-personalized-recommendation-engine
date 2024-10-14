@@ -1,0 +1,5 @@
+PS C:\Users\dimit> & C:/Users/dimit/AppData/Local/Microsoft/WindowsApps/python3.9.exe c:/Github-uploading/movie-streaming-personalized-recommendation-engine/data-preprocessing-script.py
+Preprocessed data saved to c:\Github-uploading\movie-streaming-personalized-recommendation-engine\preprocessed_data.npz
+Shape of training data: (20000076, 28)
+Shape of testing data: (5000019, 28)  
+PS C:\Users\dimit> 
