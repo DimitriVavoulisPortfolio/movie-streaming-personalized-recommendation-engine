@@ -17,7 +17,7 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 
 1. **model-training-script v1.5.py**: Main script for NCF model training
 2. **user-recommendations-and-history-script.py**: Script for generating user-specific recommendations
-3. **preprocessed_data.npz**: Preprocessed dataset (not included in the repository)
+3. **preprocessed_data.npz**: https://github-1.s3.amazonaws.com/preprocessed_data.npz (not included in the repository)
 4. **best_ncf_model.pth**: Saved best model weights
 5. **ncf_model_info.json**: Model metadata and training information
 6. **config.yaml**: Configuration file for model parameters and training settings
@@ -25,9 +25,8 @@ This project implements a Neural Collaborative Filtering (NCF) based movie recom
 
 ## Documentation
 
-- **MODEL.md**: (To be created) Detailed explanation of the NCF model architecture
-- **PROCESS.md**: (To be created) Description of the data processing and model training pipeline
-- **API.md**: (To be created) Documentation for the recommendation API (future work)
+- **MODEL.md**: https://github.com/DimitriVavoulisPortfolio/movie-streaming-personalized-recommendation-engine/blob/main/MODEL.md
+- **PROCESS.md**: https://github.com/DimitriVavoulisPortfolio/movie-streaming-personalized-recommendation-engine/blob/main/PROCESS.md
 
 ## Model Performance
 
