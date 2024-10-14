@@ -45,6 +45,7 @@
   - Hit Ratio and Normalized Discounted Cumulative Gain (NDCG) for ranking quality
 - Developed separate evaluation script for comprehensive model testing
 - Encountered and investigated issues with Hit Ratio and NDCG calculations
+- More common metrics being used till further notice
 
 ## 6. Recommendation Generation
 
